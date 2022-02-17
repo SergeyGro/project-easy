@@ -59,10 +59,10 @@ li {
 }
 
  .face-text {
-     display: flex;
-     flex-direction: column;
-     margin-right: 230px;
-     border-left: 12px solid #f16d7f;
+    display: flex;
+    flex-direction: column;
+    margin-right: 230px;
+    border-left: 12px solid #f16d7f;
  }
 
  .face-brand {
