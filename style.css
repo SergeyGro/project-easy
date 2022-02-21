@@ -41,7 +41,46 @@ li {
 }
 
 .menu {
+    position: relative;
     margin-right: 33px;
+}
+
+.open-menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 232px;
+    height: 764px;
+    background-color: #FFFFFF;
+    top: 25px;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.heading-menu{
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 24px;
+    margin-left: 33px;
+    margin-top: 37px;
+}
+
+.h-menu {
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-bottom: 12px;
+    margin-left: 33px;
+}
+
+.p-menu {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 11px;
+    margin-left: 33px;
 }
 
 .account {
@@ -55,14 +94,19 @@ li {
     height: 764px;
     display: flex;
     align-items: center;
+}
+
+.flex-end {
+    display: flex;
     justify-content: flex-end;
 }
 
  .face-text {
     display: flex;
     flex-direction: column;
-    margin-right: 230px;
+    justify-content: flex-end;
     border-left: 12px solid #f16d7f;
+    margin-right: 120px;
  }
 
  .face-brand {
@@ -189,6 +233,14 @@ a {
 
 }
 
+.card-top {
+    position: relative;
+}
+
+.add-cart {
+    display: none;
+}
+
 .card-text {
     margin-left: 18px;
     margin-right: 28px;
@@ -277,6 +329,8 @@ a {
     height: 448px;
     display: flex;
     align-items: center;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .lady-text {
@@ -292,6 +346,8 @@ a {
 .bottom-footer {
     background-color: #222224;
     height: 79px;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .flex-top-foot {
@@ -345,7 +401,7 @@ a {
     opacity: 0.67;
     background: #E1E1E1;
     border: #E1E1E1;
-    height: 36px;
+    height: 52px;
     padding: 7px 64px 6px 22px;
     border-radius: 60px 0 0 60px;
     border: 1px solid transparent;
@@ -425,4 +481,70 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.menu:hover .open-menu {
+    display: block;
+}
+
+.h-menu:hover {
+    color: #000000;
+}
+.p-menu:hover {
+    color: #F16D7F;
+}
+
+.card:hover .card-img {
+    filter: brightness(30%);
+}
+
+.card:hover .add-cart {
+    display: block;
+    position: absolute;
+    top: 187px;
+    left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    width: 138px;
+    height: 43px;
+}
+
+.card:hover .p-cart {
+    margin: 0;
+    padding-left: 11px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.card:hover .cart-img {
+    width: 26px;
+    height: 23px;
+}
+
+.product-button:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
+
+.facebook:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
+
+.instagram:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
+
+.pinterest:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
+}
+
+.twitter:hover {
+    background-color: #F16D7F;
+    color: #FFFFFF;
 }
