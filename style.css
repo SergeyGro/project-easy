@@ -6,6 +6,7 @@
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 p {
@@ -89,17 +90,21 @@ li {
 
 .face {
     background-color: #F1E4E6;
-    background-image: url(image/face.png);
-    background-repeat: no-repeat;
     height: 764px;
-    display: flex;
-    align-items: center;
 }
 
 .flex-end {
+    height: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
+
+.face-img {
+    position: absolute;
+    top: 0;
+    left: -200px;
+}   
 
  .face-text {
     display: flex;
