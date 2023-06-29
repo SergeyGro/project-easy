@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #222222;
+    height: 75px;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+}
+
+.head-box {
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.index {
+    margin-right: 41px;
+}
+
+.menu {
+    margin-right: 33px;
+}
+
+.account {
+    margin-right: 33px;
+}
+
+.face {
+    background-color: #F1E4E6;
+    background-image: url(image/face.png);
+    background-repeat: no-repeat;
+    height: 764px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ .face-text {
+     display: flex;
+     flex-direction: column;
+     margin-right: 330px;
+     border-left: 12px solid #f16d7f;
+     float: left;
+     padding-left: 12px;
+ }
+
+ .face-brand {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+ }
+
+ .face-fashion {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 58px;
+    color: #222222;
+ }
+
+ span {
+    color: #F16D7F;
+ }
+ 
+ .catalog {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin-top: 65px;
+ }
+
+ .women {
+     background-image: url(image/women.jpg);
+     width: 360px;
+     height: 260px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+.men {
+    background-image: url(image/men.jpg);
+    width: 360px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kids {
+    background-image: url(image/kid.jpg);
+    width: 360px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.acces {
+    background-image: url(image/acc.jpg);
+    width: 1140px;
+    height: 180px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p-top {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.p-bottom {
+    font-size: 24px;
+    line-height: 19px;
+    text-align: center;
+    color: #f16d7f;
+}
